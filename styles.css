@@ -567,6 +567,80 @@
   color: #e9e9e9;
   transition: 0.3s ease-out;
 }
+/*login section*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f77062;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #007BFF;
+}
+
+.login-container .signup-link {
+  margin-top: 10px;
+  display: block;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.login-container .signup-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  padding: 10px 0;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
 
 /* Social Icons */
 .social__icon--link {
